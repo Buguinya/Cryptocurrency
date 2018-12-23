@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name">Coins</string>
+    <string name="price_usd">%.2f$</string>
+    <string name="percent_change">%.2f%%</string>
+</resources>

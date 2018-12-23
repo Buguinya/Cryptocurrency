@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="56dp"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="horizontal"
+    android:gravity="center_vertical"
+    android:paddingLeft="16dp"
+    xmlns:tools="http://schemas.android.com/tools">
+    
+    <TextView
+        android:id="@+id/symbol"
+        android:layout_marginRight="16dp"
+        android:background="@drawable/bg_coin_symbol"
+        android:paddingLeft="5dp"
+        android:paddingRight="5dp"
+        android:textColor="@color/white"
+        android:textStyle="bold"
+        app:autoSizeTextType="uniform"
+        android:maxLines="1"
+        app:autoSizeMinTextSize="8dp"
+        tools:text="BTC"
+        android:gravity="center"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/name"
+        android:layout_weight="1"
+        tools:text="Bitcoin"
+        android:gravity="center"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/priceUsd"
+        android:layout_weight="1"
+        tools:text="10000$"
+        android:gravity="center"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+    <TextView
+        android:id="@+id/percentChange"
+        android:layout_weight="1"
+        tools:text="-15%"
+        android:gravity="center"
+        android:layout_width="40dp"
+        android:layout_height="40dp" />
+
+</LinearLayout>
